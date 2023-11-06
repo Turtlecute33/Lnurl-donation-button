@@ -39,7 +39,7 @@ Then just create an html tag in the same HTML page with the same #id choosed in 
 ```
 
   ## Personalization
-  You can edit the variables:
+  You should edit these variables:
   
   - Fr.loadCD: set a name for call the library in Html
   - coin: "BITCOIN or LIGHTNING"
