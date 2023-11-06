@@ -6,7 +6,7 @@ CryptoDonate is a JavaScript library that allows you to easily integrate Bitcoin
 
 - Integration of Bitcoin and Lightning Network donation buttons.
 - Customizable appearance to fit your website's design.
-- Lightning node not required
+- Lightning node not required.
 
 ## Usage
 
