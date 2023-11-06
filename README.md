@@ -33,7 +33,7 @@ CryptoDonate is a JavaScript library that allows you to easily integrate Bitcoin
 	</script>
 ```
 
-Then just create an html tag in the same HTML page with the same #id choosed in the FrLoad variable: Example:
+Then just create an html tag in the same HTML page with the same #id choosed in the FrLoad variable. Example:
 ```html
 "< span id="bitcoin"></ span>"
 ```
