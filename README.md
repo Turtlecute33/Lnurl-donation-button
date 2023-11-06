@@ -1,9 +1,19 @@
-# CryptoDonateButton
+# CryptoDonate - Bitcoin and Lightning Donation Button
 
-A JavaScript library to put up donation buttons for Bitcoin.
+CryptoDonate is a JavaScript library that allows you to easily integrate Bitcoin and Lightning Network donation buttons into your website or web application. With CryptoDonate, you can provide your users with a convenient way to make cryptocurrency donations using Bitcoin or Lightning.
 
-To use it just upload the folder CryptoDonateButton in your website root folder,
-then copy and paste the following script at the beinning of your HTML page:
+## Features
+
+- Integration of Bitcoin and Lightning Network donation buttons.
+- Customizable appearance to fit your website's design.
+- 
+## Usage
+
+1. Include the CryptoDonate JavaScript file in your HTML:
+
+```html
+<script src="CryptoDonate.js"></script>
+
 
 	<script>
 		! function(c) {
@@ -20,22 +30,24 @@ then copy and paste the following script at the beinning of your HTML page:
 			});
 		});
 	</script>
-  
+```
+
+Then just create an html tag in the same HTML page with the same #id choosed in the FrLoad variable: Example:
+```html
+"< span id="bitcoin"></ span>"
+```
+
+  ## Personalization
   You can edit the variables:
   
-  - Fr.loadCD("CHOOSE AN ID", {
-
-  - coin: "BITCOIN OR LIGHTNING"
-  
-  - address: "YOUR BITCOIN ADDRESS/YOUR LNURL",
-  - buttonClass: "SMALL/MEDIUM/LARGE",
-  - dialogClass: "SMALL/MEDIUM/LARGE",
+  - Fr.loadCD: set a name for call the library in Html
+  - coin: "BITCOIN or LIGHTNING"
+  - address: "YOUR BITCOIN ADDRESS / YOUR LNURL",
+  - buttonClass: "SMALL / MEDIUM / LARGE",
+  - dialogClass: "SMALL / MEDIU M/ LARGE",
         
      
-Then just create an html tag in the website where you want the button with as ID the variable choosen in the Fr.loadCD row. Example:
-<br><br>
-	
-"< span id="CHOOSE AN ID"></ span>"
+
 	<Br><Br>
 	
 Now you have a beautiful Bitcoin donation button on your website!
